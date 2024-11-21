@@ -1,7 +1,9 @@
 :root {
   --black: #3b434e;
+  --gray-light: #EBEBEB;
   --white: #ffffff;
   --primary: #7653fc;
+  --primary-hover: #6344df;
   --red: #fc836d;
   --green: #1dc37e;
   --green-light: #c8f8e4;
@@ -10,12 +12,12 @@
   --font-family: "Noto Sans, sans-serif";
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 html,
 body {
